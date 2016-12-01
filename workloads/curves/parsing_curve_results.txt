@@ -1,0 +1,34 @@
+PS C:\Users\administrator.SETO\desktop\output\3\web_curve> gci logfile.html -Recurse | Select-String "starting rd","avg" | sls name -notmat
+
+logfile.html:45:02:59:18.002 Starting RD=webcurverun; I/O rate: Uncontrolled curve; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:133:03:00:33.018 avg_16-75    2298.15    17.95    8192  94.96  222.809  224.987  181.737 1048.310   65.379 512.0   7.0   4.3
+logfile.html:138:03:00:35.000 Starting RD=webcurverun_(1%); I/O rate: 30; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:226:03:01:50.011 avg_16-75      29.98     0.23    8192  95.39   10.061   10.520    0.580  133.462   11.862   0.3   4.6   1.1
+logfile.html:231:03:01:52.000 Starting RD=webcurverun_(10%); I/O rate: 230; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:319:03:03:07.009 avg_16-75     228.55     1.79    8192  95.12    8.702    9.118    0.592  162.483    8.189   2.0   2.0   0.9
+logfile.html:324:03:03:09.001 Starting RD=webcurverun_(20%); I/O rate: 460; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:412:03:04:24.008 avg_16-75     460.58     3.60    8192  94.81    7.800    8.194    0.597   81.897    4.322   3.6   2.8   1.6
+logfile.html:417:03:04:26.001 Starting RD=webcurverun_(30%); I/O rate: 690; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:505:03:05:41.009 avg_16-75     689.78     5.39    8192  94.84    8.976    9.432    0.600   96.916    5.394   6.2   5.0   2.6
+logfile.html:510:03:05:43.001 Starting RD=webcurverun_(40%); I/O rate: 920; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:598:03:06:58.010 avg_16-75     929.27     7.26    8192  95.04   10.142   10.638    0.627   99.065    6.432   9.4   4.3   2.6
+logfile.html:603:03:06:59.001 Starting RD=webcurverun_(50%); I/O rate: 1200; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:691:03:08:14.011 avg_16-75    1201.53     9.39    8192  95.24   11.928   12.495    0.587  130.592    8.488  14.3   4.6   2.6
+logfile.html:696:03:08:16.001 Starting RD=webcurverun_(60%); I/O rate: 1400; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:784:03:09:31.009 avg_16-75    1401.88    10.95    8192  94.97   13.810   14.507    0.670  174.195   10.741  19.4   5.0   3.2
+logfile.html:789:03:09:33.001 Starting RD=webcurverun_(70%); I/O rate: 1700; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:877:03:10:48.009 avg_16-75    1699.75    13.28    8192  94.95   17.365   18.251    0.704  227.419   15.106  29.5   6.2   4.1
+logfile.html:882:03:10:50.000 Starting RD=webcurverun_(80%); I/O rate: 1900; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:970:03:12:05.009 avg_16-75    1896.65    14.82    8192  95.03   21.307   22.378    0.800  318.443   20.371  40.4   8.3   4.5
+logfile.html:975:03:12:07.001 Starting RD=webcurverun_(85%); I/O rate: 2000; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:1063:03:13:22.009 avg_16-75    2005.65    15.67    8192  95.02   24.182   25.408    0.808  505.708   24.038  48.5   6.6   4.3
+logfile.html:1068:03:13:24.000 Starting RD=webcurverun_(90%); I/O rate: 2100; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:1156:03:14:39.008 avg_16-75    2094.38    16.36    8192  95.08   26.568   27.900    0.848  405.756   26.909  55.7   6.3   4.0
+logfile.html:1161:03:14:41.000 Starting RD=webcurverun_(92%); I/O rate: 2200; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:1249:03:15:56.009 avg_16-75    2203.43    17.21    8192  95.01   30.580   32.132    1.015  444.960   31.558  67.4   7.7   4.8
+logfile.html:1254:03:15:58.001 Starting RD=webcurverun_(94%); I/O rate: 2200; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:1342:03:17:13.009 avg_16-75    2203.47    17.21    8192  94.93   30.603   32.183    1.022  446.774   31.622  67.4   6.6   4.2
+logfile.html:1347:03:17:15.006 Starting RD=webcurverun_(96%); I/O rate: 2300; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:1435:03:18:30.009 avg_16-75    2292.47    17.91    8192  95.03   33.857   35.541    1.682  549.699   34.717  77.6   6.5   4.0
+logfile.html:1440:03:18:32.001 Starting RD=webcurverun_(98%); I/O rate: 2300; elapsed=60 warmup=15; For loops: threads=512
+logfile.html:1528:03:19:47.009 avg_16-75    2300.00    17.97    8192  94.94   35.267   37.033    2.120  549.729   35.663  81.1   6.0   4.0
