@@ -1,0 +1,10 @@
+<pre>
+
+* Contents of parameter file: C:\Users\administrator.SETO\desktop\workloads\curves\sql_32threads_curve.cfg
+
+sd=Disk1,lun=\\.\PHYSICALDRIVE1,openflags=directio,size=2147g
+wd=sqlcurve,sd=Disk1,xfersize=65536,rdpct=66,seekpct=100
+rd=sqlrun,wd=sqlcurve,iorate=curve,curve=(1,5,10,15,20,25,30,35,40,45,50,55,60,70,75),interval=1,elapsed=60,warmup=15,threads=32
+
+
+

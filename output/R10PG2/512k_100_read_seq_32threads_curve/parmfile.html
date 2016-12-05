@@ -1,0 +1,9 @@
+<pre>
+
+* Contents of parameter file: C:\Users\administrator.SETO\desktop\workloads\curves\512k_100_read_seq_32threads_curve.cfg
+
+sd=Disk1,lun=\\.\PHYSICALDRIVE1,openflags=directio,size=4095g
+wd=lblkseqread,sd=Disk1,xfersize=524288,rdpct=100,seekpct=0
+rd=lblkseqreadrun,wd=lblkseqread,iorate=curve,curve=(1,5,10,15,20,25,30,35,40,45,50,55,60,70,75),interval=1,elapsed=60,warmup=15,threads=32
+
+

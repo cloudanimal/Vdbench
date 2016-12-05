@@ -1,0 +1,10 @@
+<pre>
+
+* Contents of parameter file: C:\Users\administrator.SETO\desktop\workloads\curves\max_4k_100_read_32threads_curve.cfg
+
+sd=Disk1,lun=\\.\PHYSICALDRIVE1,openflags=directio,size=6143g
+wd=max4kcurve,sd=Disk1,xfersize=4096,rdpct=100,seekpct=80
+rd=max4kcurverun,wd=max4kcurve,iorate=curve,curve=(1,5,10,15,20,25,30,35,40,45,50,55,60,70,75),interval=1,elapsed=60,warmup=15,threads=512  
+
+
+

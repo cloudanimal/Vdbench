@@ -1,0 +1,447 @@
+<pre>
+stdout/stderr for slave=localhost-0
+
+07:01:07.540 07:01:07.540 SlaveJvm execution parameter:  '-m localhost'
+07:01:07.540 07:01:07.540 SlaveJvm execution parameter:  '-n localhost-10-161203-07.01.06.931'
+07:01:07.540 07:01:07.540 SlaveJvm execution parameter:  '-l localhost-0'
+07:01:07.540 07:01:07.540 SlaveJvm execution parameter:  '-p 5570'
+07:01:07.540 07:01:07.540 SlaveJvm positional parameter: 'SlaveJvm'
+07:01:07.712 07:01:07.712 successfully connected to master localhost
+07:01:07.712 07:01:07.712 Connection to localhost using port 5570 successful
+07:01:08.119 07:01:08.119 Configuration interpretation took 0.11 seconds
+
+Link to Run Definitions:         <A HREF="#_1567581361">sqlrun For loops: threads=32</A>
+                                 <A HREF="#_849460928">sqlrun_(1%) For loops: threads=32</A>
+                                 <A HREF="#_580024961">sqlrun_(5%) For loops: threads=32</A>
+                                 <A HREF="#_2027961269">sqlrun_(10%) For loops: threads=32</A>
+                                 <A HREF="#_1586270964">sqlrun_(15%) For loops: threads=32</A>
+                                 <A HREF="#_1642360923">sqlrun_(20%) For loops: threads=32</A>
+                                 <A HREF="#_1343441044">sqlrun_(25%) For loops: threads=32</A>
+                                 <A HREF="#_693632176">sqlrun_(30%) For loops: threads=32</A>
+                                 <A HREF="#_326549596">sqlrun_(35%) For loops: threads=32</A>
+                                 <A HREF="#_1364335809">sqlrun_(40%) For loops: threads=32</A>
+                                 <A HREF="#_458209687">sqlrun_(45%) For loops: threads=32</A>
+                                 <A HREF="#_233530418">sqlrun_(50%) For loops: threads=32</A>
+                                 <A HREF="#_683287027">sqlrun_(55%) For loops: threads=32</A>
+                                 <A HREF="#_1766822961">sqlrun_(60%) For loops: threads=32</A>
+                                 <A HREF="#_254413710">sqlrun_(70%) For loops: threads=32</A>
+                                 <A HREF="#_1496724653">sqlrun_(75%) For loops: threads=32</A>
+
+07:01:08.306 07:01:08.306 Beginning of run setup
+07:01:08.306 07:01:08.306 **********************
+07:01:08.306 
+07:01:08.306 
+07:01:08.400 07:01:08.400 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:01:08.415 07:01:08.415 Started 1 Workload Generator threads.
+07:01:08.478 07:01:08.478 Started 32 i/o threads for Disk1
+07:01:08.478 07:01:08.478 Started a total of 32 i/o threads.
+07:01:08.478 07:01:08.478 Waiting for task synchronization
+07:01:08.478 07:01:08.478 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:01:08.681 07:01:08.681 Requesting full garbage collection
+07:01:08.681 07:01:08.681 GcTracker: cum:   1 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   190 used:   151 free:    39 
+07:01:08.712 07:01:08.712 GcTracker: cum:   3 intv:  2 ms:      32 mss:  0.00% Heap_MB max:   456 curr:   206 used:    15 free:   191 
+07:01:08.712 07:01:08.712 task_wait_start_complete() end
+
+<a name="_1567581361"></a><i><b>07:01:09.005 Starting RD=sqlrun; I/O rate: Uncontrolled curve; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:01:09.017 07:01:09.017 task_run_all(): 33 tasks
+07:02:24.141 07:02:24.141 Sent 32/32 interrupts to waiting IO_task threads
+07:02:24.141 07:02:24.141 Java Heap in MB. max:  455.500; current:  206.000; used:   31.750; free:  174.250
+07:02:24.141 07:02:24.141 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:02:24.141 07:02:24.141 End of run
+07:02:24.141 07:02:24.141 **********
+07:02:24.141 
+07:02:24.141 
+07:02:24.298 07:02:24.298 Beginning of run setup
+07:02:24.298 07:02:24.298 **********************
+07:02:24.298 
+07:02:24.298 
+07:02:24.313 07:02:24.313 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:02:24.313 07:02:24.313 Started 1 Workload Generator threads.
+07:02:24.391 07:02:24.391 Started 32 i/o threads for Disk1
+07:02:24.407 07:02:24.407 Started a total of 32 i/o threads.
+07:02:24.407 07:02:24.407 Waiting for task synchronization
+07:02:24.407 07:02:24.407 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 2
+07:02:24.613 07:02:24.613 Requesting full garbage collection
+07:02:24.613 07:02:24.613 GcTracker: cum:   3 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    35 free:   171 
+07:02:24.644 07:02:24.644 GcTracker: cum:   5 intv:  2 ms:      33 mss:  0.00% Heap_MB max:   456 curr:   206 used:    15 free:   191 
+07:02:24.644 07:02:24.644 task_wait_start_complete() end
+
+<a name="_849460928"></a><i><b>07:02:25.001 Starting RD=sqlrun_(1%); I/O rate: 30; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:02:25.003 07:02:25.003 task_run_all(): 34 tasks
+07:03:40.021 07:03:40.021 Ended WT_task
+07:03:40.130 07:03:40.130 Sent 32/32 interrupts to waiting IO_task threads
+07:03:40.130 07:03:40.130 Java Heap in MB. max:  455.500; current:  206.000; used:   18.563; free:  187.437
+07:03:40.130 07:03:40.130 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:03:40.130 07:03:40.130 End of run
+07:03:40.130 07:03:40.130 **********
+07:03:40.130 
+07:03:40.130 
+07:03:40.286 07:03:40.286 Beginning of run setup
+07:03:40.286 07:03:40.286 **********************
+07:03:40.286 
+07:03:40.286 
+07:03:40.302 07:03:40.302 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:03:40.302 07:03:40.302 Started 1 Workload Generator threads.
+07:03:40.365 07:03:40.349 Started 32 i/o threads for Disk1
+07:03:40.365 07:03:40.365 Started a total of 32 i/o threads.
+07:03:40.365 07:03:40.365 Waiting for task synchronization
+07:03:40.365 07:03:40.365 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:03:40.578 07:03:40.578 Requesting full garbage collection
+07:03:40.578 07:03:40.578 GcTracker: cum:   5 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    21 free:   185 
+07:03:40.593 07:03:40.593 GcTracker: cum:   7 intv:  2 ms:      19 mss:  0.00% Heap_MB max:   456 curr:   206 used:    15 free:   191 
+07:03:40.593 07:03:40.593 task_wait_start_complete() end
+
+<a name="_580024961"></a><i><b>07:03:41.000 Starting RD=sqlrun_(5%); I/O rate: 120; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:03:41.000 07:03:41.000 task_run_all(): 34 tasks
+07:04:56.035 07:04:56.035 Ended WT_task
+07:04:56.117 07:04:56.117 Sent 32/32 interrupts to waiting IO_task threads
+07:04:56.117 07:04:56.117 Java Heap in MB. max:  455.500; current:  206.000; used:   19.876; free:  186.124
+07:04:56.117 07:04:56.117 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:04:56.117 07:04:56.117 End of run
+07:04:56.117 07:04:56.117 **********
+07:04:56.117 
+07:04:56.117 
+07:04:56.259 07:04:56.259 Beginning of run setup
+07:04:56.259 07:04:56.259 **********************
+07:04:56.259 
+07:04:56.259 
+07:04:56.259 07:04:56.259 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:04:56.259 07:04:56.259 Started 1 Workload Generator threads.
+07:04:56.305 07:04:56.305 Started 32 i/o threads for Disk1
+07:04:56.305 07:04:56.305 Started a total of 32 i/o threads.
+07:04:56.305 07:04:56.305 Waiting for task synchronization
+07:04:56.305 07:04:56.305 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:04:56.524 07:04:56.524 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:04:56.730 07:04:56.730 Requesting full garbage collection
+07:04:56.730 07:04:56.730 GcTracker: cum:   7 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    22 free:   184 
+07:04:56.761 07:04:56.761 GcTracker: cum:   9 intv:  2 ms:      30 mss:  0.00% Heap_MB max:   456 curr:   206 used:    15 free:   191 
+07:04:56.761 07:04:56.761 task_wait_start_complete() end
+
+<a name="_2027961269"></a><i><b>07:04:57.001 Starting RD=sqlrun_(10%); I/O rate: 230; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:04:57.004 07:04:57.004 task_run_all(): 34 tasks
+07:06:12.016 07:06:12.016 Ended WT_task
+07:06:12.126 07:06:12.126 Sent 32/32 interrupts to waiting IO_task threads
+07:06:12.126 07:06:12.126 Java Heap in MB. max:  455.500; current:  206.000; used:   21.520; free:  184.480
+07:06:12.126 07:06:12.126 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:06:12.126 07:06:12.126 End of run
+07:06:12.126 07:06:12.126 **********
+07:06:12.126 
+07:06:12.126 
+07:06:12.282 07:06:12.282 Beginning of run setup
+07:06:12.282 07:06:12.282 **********************
+07:06:12.282 
+07:06:12.282 
+07:06:12.282 07:06:12.282 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:06:12.298 07:06:12.298 Started 1 Workload Generator threads.
+07:06:12.344 07:06:12.344 Started 32 i/o threads for Disk1
+07:06:12.344 07:06:12.344 Started a total of 32 i/o threads.
+07:06:12.344 07:06:12.344 Waiting for task synchronization
+07:06:12.344 07:06:12.344 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:06:12.553 07:06:12.553 Requesting full garbage collection
+07:06:12.553 07:06:12.553 GcTracker: cum:   9 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    23 free:   183 
+07:06:12.569 07:06:12.569 GcTracker: cum:  11 intv:  2 ms:      19 mss:  0.00% Heap_MB max:   456 curr:   206 used:    15 free:   191 
+07:06:12.569 07:06:12.569 task_wait_start_complete() end
+
+<a name="_1586270964"></a><i><b>07:06:13.001 Starting RD=sqlrun_(15%); I/O rate: 340; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:06:13.003 07:06:13.003 task_run_all(): 34 tasks
+07:07:28.015 07:07:28.015 Ended WT_task
+07:07:28.114 07:07:28.114 Sent 32/32 interrupts to waiting IO_task threads
+07:07:28.114 07:07:28.114 Java Heap in MB. max:  455.500; current:  206.000; used:   23.631; free:  182.369
+07:07:28.114 07:07:28.114 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:07:28.114 07:07:28.114 End of run
+07:07:28.114 07:07:28.114 **********
+07:07:28.114 
+07:07:28.114 
+07:07:28.255 07:07:28.255 Beginning of run setup
+07:07:28.255 07:07:28.255 **********************
+07:07:28.255 
+07:07:28.255 
+07:07:28.255 07:07:28.255 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:07:28.255 07:07:28.255 Started 1 Workload Generator threads.
+07:07:28.348 07:07:28.348 Started 32 i/o threads for Disk1
+07:07:28.348 07:07:28.348 Started a total of 32 i/o threads.
+07:07:28.348 07:07:28.348 Waiting for task synchronization
+07:07:28.348 07:07:28.348 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:07:28.552 07:07:28.552 Requesting full garbage collection
+07:07:28.552 07:07:28.552 GcTracker: cum:  11 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    25 free:   181 
+07:07:28.583 07:07:28.583 GcTracker: cum:  13 intv:  2 ms:      31 mss:  0.00% Heap_MB max:   456 curr:   206 used:    15 free:   191 
+07:07:28.583 07:07:28.583 task_wait_start_complete() end
+
+<a name="_1642360923"></a><i><b>07:07:29.004 Starting RD=sqlrun_(20%); I/O rate: 450; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:07:29.006 07:07:29.006 task_run_all(): 34 tasks
+07:08:44.016 07:08:44.016 Ended WT_task
+07:08:44.125 07:08:44.125 Sent 32/32 interrupts to waiting IO_task threads
+07:08:44.225 07:08:44.225 Java Heap in MB. max:  455.500; current:  206.000; used:   25.178; free:  180.822
+07:08:44.225 07:08:44.225 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:08:44.225 07:08:44.225 End of run
+07:08:44.225 07:08:44.225 **********
+07:08:44.225 
+07:08:44.225 
+07:08:44.366 07:08:44.366 Beginning of run setup
+07:08:44.366 07:08:44.366 **********************
+07:08:44.366 
+07:08:44.366 
+07:08:44.366 07:08:44.366 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:08:44.366 07:08:44.366 Started 1 Workload Generator threads.
+07:08:44.428 07:08:44.428 Started 32 i/o threads for Disk1
+07:08:44.428 07:08:44.428 Started a total of 32 i/o threads.
+07:08:44.428 07:08:44.428 Waiting for task synchronization
+07:08:44.428 07:08:44.428 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:08:44.633 07:08:44.633 Requesting full garbage collection
+07:08:44.633 07:08:44.633 GcTracker: cum:  13 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    27 free:   179 
+07:08:44.649 07:08:44.649 GcTracker: cum:  15 intv:  2 ms:      20 mss:  0.00% Heap_MB max:   456 curr:   206 used:    15 free:   191 
+07:08:44.649 07:08:44.649 task_wait_start_complete() end
+
+<a name="_1343441044"></a><i><b>07:08:45.001 Starting RD=sqlrun_(25%); I/O rate: 570; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:08:45.002 07:08:45.002 task_run_all(): 34 tasks
+07:10:00.017 07:10:00.017 Ended WT_task
+07:10:00.120 07:10:00.120 Sent 32/32 interrupts to waiting IO_task threads
+07:10:00.120 07:10:00.120 Java Heap in MB. max:  455.500; current:  206.000; used:   26.954; free:  179.046
+07:10:00.120 07:10:00.120 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:10:00.120 07:10:00.120 End of run
+07:10:00.120 07:10:00.120 **********
+07:10:00.120 
+07:10:00.120 
+07:10:00.261 07:10:00.261 Beginning of run setup
+07:10:00.261 07:10:00.261 **********************
+07:10:00.261 
+07:10:00.261 
+07:10:00.261 07:10:00.261 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:10:00.276 07:10:00.276 Started 1 Workload Generator threads.
+07:10:00.339 07:10:00.339 Started 32 i/o threads for Disk1
+07:10:00.339 07:10:00.339 Started a total of 32 i/o threads.
+07:10:00.339 07:10:00.339 Waiting for task synchronization
+07:10:00.339 07:10:00.339 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:10:00.542 07:10:00.542 Requesting full garbage collection
+07:10:00.542 07:10:00.542 GcTracker: cum:  15 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    29 free:   177 
+07:10:00.573 07:10:00.573 GcTracker: cum:  17 intv:  2 ms:      33 mss:  0.00% Heap_MB max:   456 curr:   206 used:    14 free:   192 
+07:10:00.573 07:10:00.573 task_wait_start_complete() end
+
+<a name="_693632176"></a><i><b>07:10:01.000 Starting RD=sqlrun_(30%); I/O rate: 680; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:10:01.000 07:10:01.000 task_run_all(): 34 tasks
+07:11:16.011 07:11:16.011 Ended WT_task
+07:11:16.121 07:11:16.120 Sent 32/32 interrupts to waiting IO_task threads
+07:11:16.221 07:11:16.221 Java Heap in MB. max:  455.500; current:  206.000; used:   28.297; free:  177.703
+07:11:16.221 07:11:16.221 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:11:16.221 07:11:16.221 End of run
+07:11:16.221 07:11:16.221 **********
+07:11:16.221 
+07:11:16.221 
+07:11:16.362 07:11:16.362 Beginning of run setup
+07:11:16.362 07:11:16.362 **********************
+07:11:16.362 
+07:11:16.362 
+07:11:16.362 07:11:16.362 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:11:16.362 07:11:16.362 Started 1 Workload Generator threads.
+07:11:16.409 07:11:16.409 Started 32 i/o threads for Disk1
+07:11:16.409 07:11:16.409 Started a total of 32 i/o threads.
+07:11:16.409 07:11:16.409 Waiting for task synchronization
+07:11:16.409 07:11:16.409 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:11:16.624 07:11:16.624 Requesting full garbage collection
+07:11:16.624 07:11:16.624 GcTracker: cum:  17 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    30 free:   176 
+07:11:16.639 07:11:16.639 GcTracker: cum:  19 intv:  2 ms:      17 mss:  0.00% Heap_MB max:   456 curr:   206 used:    14 free:   192 
+07:11:16.639 07:11:16.639 task_wait_start_complete() end
+
+<a name="_326549596"></a><i><b>07:11:17.001 Starting RD=sqlrun_(35%); I/O rate: 790; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:11:17.003 07:11:17.003 task_run_all(): 34 tasks
+07:12:32.014 07:12:32.014 Ended WT_task
+07:12:32.124 07:12:32.123 Sent 32/32 interrupts to waiting IO_task threads
+07:12:32.223 07:12:32.223 Java Heap in MB. max:  455.500; current:  206.000; used:   29.945; free:  176.055
+07:12:32.223 07:12:32.223 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:12:32.223 07:12:32.223 End of run
+07:12:32.223 07:12:32.223 **********
+07:12:32.223 
+07:12:32.223 
+07:12:32.270 07:12:32.270 Beginning of run setup
+07:12:32.270 07:12:32.270 **********************
+07:12:32.270 
+07:12:32.270 
+07:12:32.270 07:12:32.270 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:12:32.270 07:12:32.270 Started 1 Workload Generator threads.
+07:12:32.333 07:12:32.333 Started 32 i/o threads for Disk1
+07:12:32.333 07:12:32.333 Started a total of 32 i/o threads.
+07:12:32.333 07:12:32.333 Waiting for task synchronization
+07:12:32.333 07:12:32.333 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:12:32.536 07:12:32.536 Requesting full garbage collection
+07:12:32.536 07:12:32.536 GcTracker: cum:  19 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    32 free:   174 
+07:12:32.551 07:12:32.551 GcTracker: cum:  21 intv:  2 ms:      16 mss:  0.00% Heap_MB max:   456 curr:   206 used:    14 free:   192 
+07:12:32.551 07:12:32.551 task_wait_start_complete() end
+
+<a name="_1364335809"></a><i><b>07:12:33.001 Starting RD=sqlrun_(40%); I/O rate: 900; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:12:33.002 07:12:33.002 task_run_all(): 34 tasks
+07:13:48.015 07:13:48.015 Ended WT_task
+07:13:48.124 07:13:48.124 Sent 32/32 interrupts to waiting IO_task threads
+07:13:48.124 07:13:48.124 Java Heap in MB. max:  455.500; current:  206.000; used:   31.089; free:  174.911
+07:13:48.124 07:13:48.124 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:13:48.124 07:13:48.124 End of run
+07:13:48.124 07:13:48.124 **********
+07:13:48.124 
+07:13:48.124 
+07:13:48.265 07:13:48.265 Beginning of run setup
+07:13:48.265 07:13:48.265 **********************
+07:13:48.265 
+07:13:48.265 
+07:13:48.265 07:13:48.265 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:13:48.265 07:13:48.265 Started 1 Workload Generator threads.
+07:13:48.312 07:13:48.312 Started 32 i/o threads for Disk1
+07:13:48.312 07:13:48.312 Started a total of 32 i/o threads.
+07:13:48.312 07:13:48.312 Waiting for task synchronization
+07:13:48.312 07:13:48.312 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:13:48.521 07:13:48.521 Requesting full garbage collection
+07:13:48.521 07:13:48.521 GcTracker: cum:  21 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    33 free:   173 
+07:13:48.536 07:13:48.536 GcTracker: cum:  23 intv:  2 ms:      18 mss:  0.00% Heap_MB max:   456 curr:   206 used:    14 free:   192 
+07:13:48.536 07:13:48.536 task_wait_start_complete() end
+
+<a name="_458209687"></a><i><b>07:13:49.001 Starting RD=sqlrun_(45%); I/O rate: 1100; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:13:49.004 07:13:49.003 task_run_all(): 34 tasks
+07:15:04.014 07:15:04.014 Ended WT_task
+07:15:04.124 07:15:04.124 Sent 32/32 interrupts to waiting IO_task threads
+07:15:04.224 07:15:04.224 Java Heap in MB. max:  455.500; current:  206.000; used:   33.753; free:  172.247
+07:15:04.224 07:15:04.224 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:15:04.224 07:15:04.224 End of run
+07:15:04.224 07:15:04.224 **********
+07:15:04.224 
+07:15:04.224 
+07:15:04.375 07:15:04.359 Beginning of run setup
+07:15:04.375 07:15:04.375 **********************
+07:15:04.375 
+07:15:04.375 
+07:15:04.375 07:15:04.375 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:15:04.375 07:15:04.375 Started 1 Workload Generator threads.
+07:15:04.422 07:15:04.422 Started 32 i/o threads for Disk1
+07:15:04.422 07:15:04.422 Started a total of 32 i/o threads.
+07:15:04.422 07:15:04.422 Waiting for task synchronization
+07:15:04.422 07:15:04.422 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:15:04.627 07:15:04.627 Requesting full garbage collection
+07:15:04.627 07:15:04.627 GcTracker: cum:  23 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    36 free:   170 
+07:15:04.643 07:15:04.643 GcTracker: cum:  25 intv:  2 ms:      16 mss:  0.00% Heap_MB max:   456 curr:   206 used:    14 free:   192 
+07:15:04.643 07:15:04.643 task_wait_start_complete() end
+
+<a name="_233530418"></a><i><b>07:15:05.001 Starting RD=sqlrun_(50%); I/O rate: 1200; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:15:05.002 07:15:05.002 task_run_all(): 34 tasks
+07:16:20.013 07:16:20.013 Ended WT_task
+07:16:20.123 07:16:20.123 Sent 32/32 interrupts to waiting IO_task threads
+07:16:20.123 07:16:20.123 Java Heap in MB. max:  455.500; current:  206.000; used:   35.196; free:  170.804
+07:16:20.123 07:16:20.123 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:16:20.123 07:16:20.123 End of run
+07:16:20.123 07:16:20.123 **********
+07:16:20.123 
+07:16:20.123 
+07:16:20.264 07:16:20.264 Beginning of run setup
+07:16:20.264 07:16:20.264 **********************
+07:16:20.264 
+07:16:20.264 
+07:16:20.264 07:16:20.264 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:16:20.264 07:16:20.264 Started 1 Workload Generator threads.
+07:16:20.327 07:16:20.327 Started 32 i/o threads for Disk1
+07:16:20.327 07:16:20.327 Started a total of 32 i/o threads.
+07:16:20.327 07:16:20.327 Waiting for task synchronization
+07:16:20.327 07:16:20.327 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:16:20.530 07:16:20.530 Requesting full garbage collection
+07:16:20.530 07:16:20.530 GcTracker: cum:  25 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    37 free:   169 
+07:16:20.545 07:16:20.545 GcTracker: cum:  27 intv:  2 ms:      17 mss:  0.00% Heap_MB max:   456 curr:   206 used:    14 free:   192 
+07:16:20.545 07:16:20.545 task_wait_start_complete() end
+
+<a name="_683287027"></a><i><b>07:16:21.000 Starting RD=sqlrun_(55%); I/O rate: 1300; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:16:21.000 07:16:21.000 task_run_all(): 34 tasks
+07:17:36.131 07:17:36.131 Ended WT_task
+07:17:36.241 07:17:36.241 Interrupts issued for tasks WG_task: 2
+07:17:36.241 07:17:36.241 Sent 32/32 interrupts to waiting IO_task threads
+07:17:36.241 07:17:36.241 Java Heap in MB. max:  455.500; current:  206.000; used:   36.669; free:  169.331
+07:17:36.241 07:17:36.241 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:17:36.241 07:17:36.241 End of run
+07:17:36.241 07:17:36.241 **********
+07:17:36.241 
+07:17:36.241 
+07:17:36.387 07:17:36.387 Beginning of run setup
+07:17:36.387 07:17:36.387 **********************
+07:17:36.387 
+07:17:36.387 
+07:17:36.387 07:17:36.387 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:17:36.387 07:17:36.387 Started 1 Workload Generator threads.
+07:17:36.449 07:17:36.434 Started 32 i/o threads for Disk1
+07:17:36.449 07:17:36.449 Started a total of 32 i/o threads.
+07:17:36.449 07:17:36.449 Waiting for task synchronization
+07:17:36.449 07:17:36.449 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:17:36.652 07:17:36.652 Requesting full garbage collection
+07:17:36.652 07:17:36.652 GcTracker: cum:  27 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    39 free:   167 
+07:17:36.668 07:17:36.668 GcTracker: cum:  29 intv:  2 ms:      17 mss:  0.00% Heap_MB max:   456 curr:   206 used:    14 free:   192 
+07:17:36.668 07:17:36.668 task_wait_start_complete() end
+
+<a name="_1766822961"></a><i><b>07:17:37.001 Starting RD=sqlrun_(60%); I/O rate: 1400; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:17:37.002 07:17:37.002 task_run_all(): 34 tasks
+07:18:52.014 07:18:52.014 Ended WT_task
+07:18:52.125 07:18:52.125 Sent 32/32 interrupts to waiting IO_task threads
+07:18:52.125 07:18:52.125 Java Heap in MB. max:  455.500; current:  206.000; used:   38.018; free:  167.982
+07:18:52.125 07:18:52.125 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:18:52.125 07:18:52.125 End of run
+07:18:52.125 07:18:52.125 **********
+07:18:52.125 
+07:18:52.125 
+07:18:52.265 07:18:52.265 Beginning of run setup
+07:18:52.265 07:18:52.265 **********************
+07:18:52.265 
+07:18:52.265 
+07:18:52.265 07:18:52.265 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:18:52.265 07:18:52.265 Started 1 Workload Generator threads.
+07:18:52.312 07:18:52.312 Started 32 i/o threads for Disk1
+07:18:52.312 07:18:52.312 Started a total of 32 i/o threads.
+07:18:52.312 07:18:52.312 Waiting for task synchronization
+07:18:52.312 07:18:52.312 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:18:52.515 07:18:52.515 Requesting full garbage collection
+07:18:52.515 07:18:52.515 GcTracker: cum:  29 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    40 free:   166 
+07:18:52.531 07:18:52.531 GcTracker: cum:  31 intv:  2 ms:      17 mss:  0.00% Heap_MB max:   456 curr:   206 used:    14 free:   192 
+07:18:52.531 07:18:52.531 task_wait_start_complete() end
+
+<a name="_254413710"></a><i><b>07:18:53.000 Starting RD=sqlrun_(70%); I/O rate: 1600; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:18:53.000 07:18:53.000 task_run_all(): 34 tasks
+07:20:08.010 07:20:08.010 Ended WT_task
+07:20:08.121 07:20:08.121 Sent 32/32 interrupts to waiting IO_task threads
+07:20:08.221 07:20:08.221 Java Heap in MB. max:  455.500; current:  206.000; used:   40.622; free:  165.378
+07:20:08.221 07:20:08.221 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:20:08.221 07:20:08.221 End of run
+07:20:08.221 07:20:08.221 **********
+07:20:08.221 
+07:20:08.221 
+07:20:08.267 07:20:08.267 Beginning of run setup
+07:20:08.267 07:20:08.267 **********************
+07:20:08.267 
+07:20:08.267 
+07:20:08.267 07:20:08.267 Opening sd=Disk1,lun=\\.\PHYSICALDRIVE1; write: true; flags: OpenFlags: 0x00000001 OtherFlags: 0x00000000
+07:20:08.267 07:20:08.267 Started 1 Workload Generator threads.
+07:20:08.314 07:20:08.314 Started 32 i/o threads for Disk1
+07:20:08.314 07:20:08.314 Started a total of 32 i/o threads.
+07:20:08.314 07:20:08.314 Waiting for task synchronization
+07:20:08.314 07:20:08.314 task_wait_start_complete: IO_task \\.\PHYSICALDRIVE1 1
+07:20:08.518 07:20:08.518 Requesting full garbage collection
+07:20:08.518 07:20:08.518 GcTracker: cum:  31 intv:  0 ms:       0 mss:  0.00% Heap_MB max:   456 curr:   206 used:    43 free:   163 
+07:20:08.533 07:20:08.533 GcTracker: cum:  33 intv:  2 ms:      26 mss:  0.00% Heap_MB max:   456 curr:   206 used:    14 free:   192 
+07:20:08.533 07:20:08.533 task_wait_start_complete() end
+
+<a name="_1496724653"></a><i><b>07:20:09.002 Starting RD=sqlrun_(75%); I/O rate: 1700; elapsed=60 warmup=15; For loops: threads=32</b></i>
+
+07:20:09.003 07:20:09.003 task_run_all(): 34 tasks
+07:21:24.013 07:21:24.013 Ended WT_task
+07:21:24.123 07:21:24.123 Sent 32/32 interrupts to waiting IO_task threads
+07:21:24.123 07:21:24.123 Java Heap in MB. max:  455.500; current:  206.000; used:   41.819; free:  164.181
+07:21:24.123 07:21:24.123 Maximum native memory allocation:    4,194,304; Current allocation:            0
+07:21:24.123 07:21:24.123 End of run
+07:21:24.123 07:21:24.123 **********
+07:21:24.123 
+07:21:24.123 
+07:21:25.034 07:21:25.034 Java Heap in MB. max:  455.500; current:  206.000; used:   41.819; free:  164.181

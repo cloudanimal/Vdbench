@@ -1,0 +1,74 @@
+<pre>
+Copyright (c) 2000, 2015, Oracle and/or its affiliates. All rights reserved.
+Vdbench distribution: vdbench50403
+
+05:56:19.775 input argument scanned: '-fC:\Users\administrator.SETO\desktop\workloads\curves\max_4k_100_write_1thread_curve'
+05:56:19.775 input argument scanned: '.cfg'
+05:56:19.775 input argument scanned: '-o.\output\R10PG2\max_4k_100_write_1thread_curve'
+05:56:19.775 java.vendor                   Oracle Corporation
+05:56:19.775 java.home                     C:\Program Files\Java\jre1.8.0_111
+05:56:19.775 java.vm.specification.version 1.8
+05:56:19.775 java.vm.version               25.111-b14
+05:56:19.775 java.vm.vendor                Oracle Corporation
+05:56:19.775 java.specification.version    1.8
+05:56:19.775 java.class.version            52.0
+05:56:19.775 user.name                     administrator
+05:56:19.775 user.dir                      C:\Users\administrator.SETO\desktop
+05:56:19.775 java.class.path               C:\Users\administrator.SETO\Desktop\vdbench50403\;C:\Users\administrator.SETO\Desktop\vdbench50403\classes;C:\Users\administrator.SETO\Desktop\vdbench50403\vdbench.jar 
+05:56:19.775 os.name                       Windows Server 2012 R2
+05:56:19.775 os.arch                       amd64
+05:56:19.775 os.version                    6.3
+05:56:19.775 sun.arch.data.model           64
+05:56:19.790 
+05:56:19.790 Parameterscan error. See also output file 'parmscan.html' for details.
+05:56:19.790 
+05:56:19.790  usage: 
+05:56:19.790  ./vdbench [compare] [-f xxx] [-o xxx] [-e nn] [-i nn] [-j] [-jr] [-v] [-vq] [-s] [-k] [- "parmfile parameters"]
+05:56:19.790  
+05:56:19.790  '-f xxx': Workload parameter file name(s). Default 'parmfile' in current directory
+05:56:19.790  '-o xxx': Output directory for reporting. Default 'output' in current directory
+05:56:19.790  '-e nn':  Override elapsed=seconds. 
+05:56:19.806  '-i nn':  Override interval=seconds. 
+05:56:19.806  '-v':     Activate Data validation. 
+05:56:19.806  '-vq':    Activate Data validation, validate lba and data key (saves cpu) 
+05:56:19.806  '-j':     Activate Data validation with Journaling. 
+05:56:19.806  '-jr':    Recover existing Journal, Validate data and run workload 
+05:56:19.806  '-s':     Simulate execution. Do everything but I/O. 
+05:56:19.806  '-k':     Solaris only: Report kstat statistics on console. 
+05:56:19.806  
+05:56:19.806  
+05:56:19.806                                                                                    
+05:56:19.806 *example 1 parameter file contents, execute 'vdbench -f example1'                  
+05:56:19.806 *Single raw disk, 100% random read of 4k records at i/o rate of 100 for 10 seconds 
+05:56:19.822                                                                                    
+05:56:19.822 *SD:    Storage Definition                                                         
+05:56:19.822 *WD:    Workload Definition                                                        
+05:56:19.822 *RD:    Run Definition                                                             
+05:56:19.822 *                                                                                  
+05:56:19.822 sd=sd1,lun=/dev/rdsk/cxt0d0s0                                                      
+05:56:19.822 wd=wd1,sd=sd1,xfersize=4096,readpct=100                                            
+05:56:19.822 rd=run1,wd=wd1,iorate=100,elapsed=10,interval=1                                    
+05:56:19.822                                                                                    
+05:56:19.822                                                                                    
+05:56:19.822                                                                                    
+05:56:19.837 *example 2 parameter file contents, execute 'vdbench -f example2'                  
+05:56:19.837 *Two raw disks:                                                      
+05:56:19.837 *sd1 does 80 i/o's per second, read-to-write ratio 4:1, 4k records.  
+05:56:19.837 *sd2 does 120 i/o's per second, 100% write at 8k records.            
+05:56:19.837                                                                      
+05:56:19.837 sd=sd1,lun=/dev/rdsk/cxt0d0s0                                        
+05:56:19.837 sd=sd2,lun=/dev/rdsk/cxt0d1s0                                        
+05:56:19.837 wd=wd1,sd=sd1,xfersize=4k,readpct=80,skew=40                         
+05:56:19.837 wd=wd2,sd=sd2,xfersize=8k,readpct=0                                  
+05:56:19.837 rd=run1,wd=wd*,iorate=200,elapsed=10,interval=1                      
+05:56:19.868                                                                      
+05:56:19.868                                                                      
+05:56:19.868 For documentation, browse file 'vdbench.pdf' 
+05:56:19.868 
+05:56:19.868 Requested parameter file does not exist: C:\Users\administrator.SETO\desktop\workloads\curves\max_4k_100_write_1thread_curve
+05:56:19.868 
+java.lang.RuntimeException: Requested parameter file does not exist: C:\Users\administrator.SETO\desktop\workloads\curves\max_4k_100_write_1thread_curve
+	at Vdb.common.failure(common.java:315)
+	at Vdb.Vdb_scan.parm_error(Vdb_scan.java:54)
+	at Vdb.Vdb_scan.Vdb_scan_read(Vdb_scan.java:71)
+	at Vdb.Vdbmain.main(Vdbmain.java:566)

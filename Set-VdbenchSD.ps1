@@ -34,5 +34,5 @@ ForEach ($w in $workload_profiles){
 	}
 
 
-
-#gc .\workloads\curves\*.cfg | sls ",size="
+# Run the following command to validate the change was made
+#Get-Content .\workloads\curves\*.cfg | sls ",size="

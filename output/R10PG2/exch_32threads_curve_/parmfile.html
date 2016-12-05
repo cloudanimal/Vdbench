@@ -1,0 +1,10 @@
+<pre>
+
+* Contents of parameter file: C:\Users\administrator.SETO\desktop\workloads\curves\exch_32threads_curve_.cfg
+
+sd=Disk1,lun=\\.\PHYSICALDRIVE1,openflags=directio,size=4095g
+wd=exchcurve,sd=Disk1,xfersize=8192,rdpct=55,seekpct=80
+rd=exchcurverun,wd=exchcurve,iorate=curve,curve=(1,5,10,15,20,25,30,35,40,45,50,55,60,70,75),interval=1,elapsed=60,threads=32
+
+
+

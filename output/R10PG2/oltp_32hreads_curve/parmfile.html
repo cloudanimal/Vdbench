@@ -1,0 +1,9 @@
+<pre>
+
+* Contents of parameter file: C:\Users\administrator.SETO\desktop\workloads\curves\oltp_32hreads_curve.cfg
+
+sd=Disk1,lun=\\.\PHYSICALDRIVE1,openflags=directio,size=4095g
+wd=oltpcurve,sd=Disk1,xfersize=8192,rdpct=70,seekpct=100
+rd=oltpcurverun,wd=oltpcurve,iorate=curve,curve=(1,5,10,15,20,25,30,35,40,45,50,55,60,70,75),interval=1,elapsed=60,warmup=15,threads=32
+
+
